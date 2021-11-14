@@ -23,7 +23,7 @@ public class ProyectoFuturo {
         if (value1.equals(value2)) {
             return "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
         }
-        if (Integer.valueOf(value1) < Integer.valueOf(value2)){
+        if (Integer.valueOf(value1) > Integer.valueOf(value2)){
             return "Poco tiempo de estudio. Debes dedicar más tiempo.";
         }
         return "Ideal. Trabajas los contenidos en casa.";
